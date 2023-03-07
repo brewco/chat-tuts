@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat APP</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div><input id="nickname-input" type="text" placeholder="Enter nickname"><button id="connect-button">Connect!</button></div>
+    <div>
+        <div><input type="text" placeholder="To WHO?" id="to"></div>
+        <div>
+        <input id="message" type="text" placeholder="Enter message">
+        </div>
+        <button id="send-button">Send!</button>
+    </div>
+    <div id="messages">
+        <ul>
+            <li>Message 1</li>
+            <li>Message 2</li>
+            <li>Message 3</li>
+        </ul>
+    </div>
+    <script type="module" src="./app.ts"></script>
+</body>
+</html>
